@@ -59,6 +59,15 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  /* Columns are half-width on tablets; the third column spans the full row so there's no open space */
+  .col-3 {
+    width: 50%;
+  }
+
+  #column-3 {
+    width: 100%;
+  }
+
   header {
     background-color: lavender;
   }
@@ -84,6 +93,15 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  /* Three equal columns on one row for desktops */
+  .col-3 {
+    width: 33.333%;
+  }
+
+  #column-3 {
+    width: 33.333%;
+  }
+
   header {
     background-color: mistyrose;
   }
